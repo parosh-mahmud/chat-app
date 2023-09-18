@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/server.js",
     "server":"nodemon server/server.js",
-  "build": "npm install  && npm install --prefix frontend && npm run build --prefix frontend"
+  "build": "npm install  && npm install --prefix client && npm run build --prefix client"
   },
   "author": "Parosh mahmud",
   "license": "ISC",
