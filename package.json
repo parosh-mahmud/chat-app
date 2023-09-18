@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server/server.js",
+    "start": "node server/server.js",
+    "server":"nodemon server/server.js",
   "build": "npm install  && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Parosh mahmud",
